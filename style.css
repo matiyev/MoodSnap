@@ -1,0 +1,21 @@
+
+  #video-container {
+    position: relative;
+  }
+
+  #video {
+    margin: 0;
+    border: 5px solid #20C20E;
+    z-index: 0; /* Set z-index for video */
+  }
+
+  #title {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2; /* Set a higher z-index for the title */
+    color: #20C20E;
+    font-size: 34px;
+    font-family: 'Inconsolata', monospace;
+  }
